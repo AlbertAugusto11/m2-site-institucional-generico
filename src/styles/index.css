@@ -5,7 +5,6 @@ body{
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    --color-white: #ffffff;
     font-family: "Inter", sans-serif;
 }
 
@@ -72,6 +71,9 @@ body{
     color: var(--color-white);
     border: none;
 }
+.section1__button:hover{
+    background-color: var(--brand-2);
+}
 
 .main__section2{
     max-width: 78.5rem;
@@ -129,6 +131,9 @@ body{
     background-color: var(--brand-1);
     color: var(--color-white);
     border: none;
+}
+.section3__div1__button:hover{
+    background-color: var(--brand-2);
 }
 .section3__div2{
     width: 36.25rem;
@@ -241,4 +246,70 @@ body{
 .footer__img{
     width: 11rem;
     height: 1.2rem;
+}
+
+.dialog__container{
+    width: 31.25rem;
+    height: 25rem;
+    margin-left: 24.375rem;
+    margin-top: 6.25rem;
+    background-color: var(--gray-2);
+    border: 2px solid var(--brand-1);
+}
+.dialog__container::backdrop{
+    background-color: rgb(25, 28, 31,0.8);
+}
+.dialog__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: var(--gray-2);
+}
+.dialog__form__div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.dialog__form__div__h3{
+    font-size: var(--title-3);
+    color: var(--gray-7);
+}
+.dialog__form__div__button{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--gray-3);
+    border-radius: 0.25rem;
+    border: none;
+    color: var(--gray-4);
+}
+.dialog__form__p{
+    font-size: var(--text-3);
+    color: var(--gray-5);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.dialog__form__input{
+    width: 95%;
+    height: 3.125rem;
+    align-self: center;
+    background-color: var(--gray-1);
+    padding-left: 1rem;
+    align-self: center;
+    border: none;
+    color: var(--gray-4);
+}
+.dialog__form__button{
+    width: 95%;
+    height: 3.125rem;
+    align-self: center;
+    background-color: var(--brand-1);
+    border: none;
+    color: var(--gray-7);
+}
+.dialog__form__button:hover{
+    background-color: var(--brand-2);
 }

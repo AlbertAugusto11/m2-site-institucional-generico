@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/globalStyles.css">
     <link rel="stylesheet" href="./src/styles/index.css">
-    <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/index.js" defer></script>
     <title>Página Institucional Genérica</title>
 </head>
 <body>
@@ -169,13 +169,16 @@
     </footer>
     <dialog class="dialog__container">
       <form class="dialog__form">
-        <h2 class="dialog__form__h2">Cadastro</h2>
+        <div class="dialog__form__div">
+          <h3 class="dialog__form__div__h3">Cadastro</h3>
+          <button class="dialog__form__div__button" type="button">X</button>
+        </div>
         <p class="dialog__form__p">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy
           text ever since the 1500s
         </p>
-        <input class="dialog__form__input" type="email" placeholder="Digitar email">
+        <input class="dialog__form__input" type="email" placeholder="Digitar email" required>
         <button class="dialog__form__button" type="submit">Entrar na lista para próxima turma</button>
       </form>
     </dialog>
