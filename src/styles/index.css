@@ -22,6 +22,7 @@ body{
     gap: 2rem;
     background-color: var(--gray-1);
     border-bottom: 1px solid var(--brand-1);
+    z-index: 1;
 }
 .header__img{
     width: 11rem;
@@ -108,6 +109,9 @@ body{
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 8rem;
+    top: 9.375rem;
+    margin-bottom: 3.125rem;
+    position: sticky;
 }
 .section3__div1__h2{
     font-size: var(--title-2);
@@ -208,6 +212,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 8.75rem;
     background-color: var(--brand-1);
 }
 .section4__div2__h2{
