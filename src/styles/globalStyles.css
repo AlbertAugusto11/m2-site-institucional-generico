@@ -8,12 +8,11 @@
     --gray-5: #CED4DA;
     --gray-6: #EDF2FF;
     --gray-7: #F8F9FA;
-    --color-white: #ffffff;
-    --title-1: clamp(1rem, -0.051rem + 4.206vw, 3.25rem);
-    --title-2: clamp(1rem, 0.299rem + 2.804vw, 2.5rem);
-    --title-3: clamp(1rem, 0.533rem + 1.869vw, 2rem);
-    --text-1: clamp(0.5rem, 0.15rem + 1.402vw, 1.25rem);
-    --text-2: clamp(0.5rem, 0.208rem + 1.168vw, 1.125rem);
-    --text-3: clamp(0.5rem, 0.266rem + 0.935vw, 1rem);
-    --text-4: clamp(0.5rem, 0.266rem + 0.935vw, 1rem);
+    --title-1: clamp(1rem, -1.058rem + 5.488vw, 3.25rem);
+    --title-2: clamp(1rem, -0.372rem + 3.659vw, 2.5rem);
+    --title-3: clamp(1rem, 0.085rem + 2.439vw, 2rem);
+    --text-1: clamp(1rem, 0.771rem + 0.61vw, 1.25rem);
+    --text-2: clamp(1rem, 0.886rem + 0.305vw, 1.125rem);
+    --text-3: clamp(0.5rem, 0.043rem + 1.22vw, 1rem);
+    --text-4: clamp(0.5rem, 0.043rem + 1.22vw, 1rem);
 }

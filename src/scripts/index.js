@@ -27,4 +27,4 @@ buttonSection3.addEventListener("click", () => {
 const formModal = document.querySelector(".dialog__form");
 formModal.addEventListener("submit",() =>{
     alert("Cadastro Realizado com Sucesso")
-})
+});
